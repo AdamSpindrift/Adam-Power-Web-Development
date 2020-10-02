@@ -1,0 +1,312 @@
+/**************************************************** ID Selectors ********************************************************
+*/
+
+/* font-family: 'Allura', cursive; */
+/* font-family: 'Sintony', sans-serif; */
+
+#title {
+    background-color: #fff;
+    color: #1D2D50;
+}
+
+
+/**************************************************** Element Selectors ***************************************************
+*/
+
+body {
+    font-family: 'Sintonyt', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Allura', cursive;
+    line-height: 1.5;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Sintonyt', sans-serif;
+    line-height: 1.5;
+}
+
+p {
+    font-family: 'Sintonyt', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/**************************************************** Class Selectors ****************************************************
+*/
+
+.container-fluid {
+    padding: 0% 15%;
+    text-align: center;
+}
+
+
+/* Navigation Bar */
+
+#nav {
+   background-color: #1D2D50;
+   padding: 3%;
+}
+
+.navbar-brand {
+    font-family: 'Sintonyt', sans-serif;
+    font-size: 2rem;
+}
+
+.nav-button {
+    border: none;
+    color: #FCDAB7;
+    cursor: pointer;
+    padding: 10%;
+    text-decoration: none;
+    font-family: 'Sintonyt', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.nav-button:hover {
+    border: none;
+    color: #FCDAB7;
+    cursor: pointer;
+    padding: 10%;
+    text-decoration: none;
+    font-family: 'Sintonyt', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.nav-button:active {
+    color: #133B5C;
+}
+
+.nav-button:focus {
+    border: none;
+    outline: none;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    color: #fff;
+    font-family: 'Sintonyt', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 5%;
+    position: relative;
+}
+
+/* Headings */
+
+.big-heading {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.big-heading-regular {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 80%;
+    position: relative;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 50%;
+}
+
+.main-title {
+    margin-top: 0%;
+}
+
+
+/* Features */
+
+#features {
+    background-color: #1D2D50;
+    padding: 10% 10%;
+    position: relative;
+    text-align: center;
+}
+
+.feature-row {
+    padding: 2%;
+}
+
+.feature-box {
+    background-color: #fff;
+    padding: 10%;
+}
+
+.feature-icon { 
+    color: #ef8172;
+    padding: 2%;
+    position: relative;
+    transform: scale(1);
+    width: 100%;
+}
+
+.feature-title {
+    font-family: 'Sintonyt', sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.feature {
+    padding: 1%;
+    
+}
+
+.feature-detail {
+    color: #1b262c;
+    font-weight: 500;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #133B5C ;
+    color: #fff;
+    padding-top: 5%;
+    
+}
+
+.client-logo {
+    transform: scale(0.25);
+    right: 5%;
+    margin-top: -10%;
+    margin-bottom: -10%;
+}
+
+.client-image {
+    border-radius: 100%;
+    padding: 3%;
+}
+.client-title {
+    margin: 0;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.testimonial {
+    margin: 0 20%;
+    padding: 10% 0;
+}
+
+.testimonial-text {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.testimonial_QA {
+    text-align: left;
+    padding: 5%;
+}
+.question {
+    font-weight: 600;
+}
+
+.ptr-image {
+    padding: 5%;
+}
+
+@media (max-width: 1200px) {
+    .client-logo {
+        margin-bottom:-30%;
+        margin-top: -30%;
+        right: 10%;
+    }
+
+    .feature-detail {
+        font-size: 2rem;
+    }
+
+    .feature-title {
+        font-size: 3rem;
+    }
+    .ptr-image {
+        left: -140px;
+        transform: scale(0.75); 
+    }
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        right: 5%;
+    }
+}
+/* Press */
+
+#press {
+    background-color: #fff;
+    padding-bottom: 5%;
+}
+
+.press-logo {
+    padding: 1%;
+}
+
+
+
+/* Call To Action */
+
+#cta {
+    background-color: #FCDAB7 ;
+    color: black;
+}
+
+.call-to-action {
+    padding: 5% 22%;
+
+}
+
+.email-button {
+    margin: 5%;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #FCDAB7 ;
+    padding: 5%;
+}
+
+.footer {
+    text-align: center;
+}
+
+#copyright {
+    padding: 1%;
+}
+
+
+/* Colour Pallete */
+/* #1D2D50
+#133B5C
+#1E5F74
+#FCDAB7 */
