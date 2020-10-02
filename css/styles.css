@@ -116,6 +116,12 @@ p {
     font-weight: 400;
 }
 
+.big-heading-white {
+    color: #fff;
+    font-size: 7rem;
+    font-weight: 400;
+}
+
 .big-heading-regular {
     font-size: 3.5rem;
     font-weight: 600;
@@ -148,6 +154,10 @@ p {
     padding: 10% 10%;
     position: relative;
     text-align: center;
+}
+
+.key-feature {
+    font-size: 6rem;
 }
 
 .feature-row {
@@ -183,10 +193,58 @@ p {
     font-weight: 500;
 }
 
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.carousel-control-prev-icon {
+    filter: invert(100%);
+}
+
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease .7s;
+
+}
+
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+    transition: opacity ease .7s;
+
+}
+
+.carousel-feature {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.carousel-item {
+    position: relative;
+    
+}
+
+.carousel-inner {
+    height: 200px;
+}
+
+/* Technology */
+
+#Technology {
+    background-color: #133B5C;
+    padding: 10% 10%;
+    position: relative;
+    text-align: center;
+}
+
 /* Testimonials */
 
 #testimonials {
-    background-color: #133B5C ;
+    background-color: #1E5F74;
     color: #fff;
     padding-top: 5%;
     
@@ -235,6 +293,11 @@ p {
 }
 
 @media (max-width: 1200px) {
+
+    .carousel-inner {
+        height: 400px;
+    }
+
     .client-logo {
         margin-bottom:-30%;
         margin-top: -30%;
