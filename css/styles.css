@@ -112,7 +112,7 @@ p {
 /* Headings */
 
 .big-heading {
-    font-size: 5rem;
+    font-size: 6rem;
     font-weight: 400;
 }
 
@@ -291,7 +291,7 @@ p {
 
 /* Technology */
 
-#Technology {
+#technology {
     background-color: #133B5C;
     padding: 10% 10%;
     position: relative;
@@ -306,6 +306,17 @@ p {
     padding-top: 5%;
     
 }
+
+.project-image-container {
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.project-image {
+    width: 100%;
+}
+
+
 
 /* Testimonials */
 
