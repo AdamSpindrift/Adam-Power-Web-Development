@@ -414,6 +414,15 @@ p {
         left: -140px;
         transform: scale(0.75); 
     }
+
+    .nav-button {
+        font-size: 0.8rem;
+    }
+
+    .nav-button:hover {
+        font-size: 1.2rem;
+    }
+
     #title {
         text-align: center;
     }
