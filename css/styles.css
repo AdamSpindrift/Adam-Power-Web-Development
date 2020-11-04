@@ -57,6 +57,15 @@ p {
     font-size: 2rem;
 }
 
+.a-brand {
+    color: #fff;
+    font-size: 5rem;
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    text-align: left ;
+}
+
 .nav-button {
     border: none;
     color: #FCDAB7;
@@ -91,6 +100,7 @@ p {
 }
 
 .nav-item {
+    float: right;
     padding: 0 18px;
 }
 
@@ -226,6 +236,11 @@ p {
     padding: 10%;
 }
 
+.feature-box-2 {
+    background-color: #FCDAB7 ;
+    padding: 10%;
+}
+
 .feature-icon { 
     color: #ef8172;
     padding: 2%;
@@ -236,7 +251,7 @@ p {
 
 .feature-title {
     font-family: 'Sintonyt', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 900;
 }
 
@@ -246,8 +261,8 @@ p {
 }
 
 .feature-detail {
-    color: #1b262c;
     font-weight: 500;
+    text-align: center;
 }
 
 .carousel-control-next-icon {
@@ -337,7 +352,8 @@ p {
 .client-image {
     border-radius: 100%;
     padding: 3%;
-}
+    width: 50%
+;}
 .client-title {
     margin: 0;
 }
@@ -370,6 +386,12 @@ p {
 }
 
 @media (max-width: 1200px) {
+
+    .a-brand {
+        font-size: 3rem;
+        top: 0%;
+        margin-bottom: 5%;
+    }
 
     .carousel-inner {
         height: 400px;
@@ -438,6 +460,10 @@ p {
 
 .footer {
     text-align: center;
+}
+
+.fab {
+    scale: 20;
 }
 
 #copyright {
